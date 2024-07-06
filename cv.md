@@ -1,5 +1,5 @@
 
-![Leonid Korshunov - avatar](./img/avatar.png)
+![Leonid Korshunov - avatar](./assets/img/avatar.png)
 
 # Leonid Korshunov
 
@@ -35,7 +35,7 @@ _Front-end developer - CV._
 ---
 
 ## Stack:
-![HTML5](./img/html5.svg) ![CSS3](./img/css3.svg) ![JavaScript](./img/js.svg) ![SASS](./img/sass.svg) ![GULP](./img/gulp.svg) ![Git](./img/git.svg) ![GitHub](./img/github.svg) ![Figma](./img/figma.svg) ![Photoshop](./img/photoshop.svg)
+![HTML5](./assets/svg/html5.svg) ![CSS3](./assets/svg/css3.svg) ![JavaScript](./assets/svg/js.svg) ![SASS](./assets/svg/sass.svg) ![GULP](./assets/svg/gulp.svg) ![Git](./assets/svg/git.svg) ![GitHub](./assets/svg/github.svg) ![Figma](./assets/svg/figma.svg) ![Photoshop](./assets/svg/photoshop.svg)
 
 ---
 
