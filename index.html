@@ -1,19 +1,117 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/main.css">
-  <title>Lorem, ipsum.</title>
+  <link rel="icon" href="./assets/svg/gulp.svg" />
+  <title>CV - Leonid Korshunov.</title>
 </head>
 
 <body>
   <div class="wrapper">
-  <header class="header"></header>
-  <main class="main"></main>
-  <footer class="footer"></footer>
+    <header class="header">
+      <div class="container">
+        <h1>Leonid Korshunov - CV</h1>
+        <p>Frontend developer.</p>
+        <img src="./assets/img/avatar.png" alt="The developer avatar">
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+
+        <div class="contacts">
+          <h2>Contacts:</h2>
+          <p>Location: Samara, Russia;</p>
+          <p>Phone: +7(999)170-24-68</p>
+          <h3>Links:</h3>
+          <a href="https://t.me/leonidkorshunov">Telegram</a>
+          <br>
+          <a href="https://github.com/UltimatePowerCoder">GitHub</a>
+        </div>
+
+        <div class="about">
+          <h2>About Me:</h2>
+          <p>👋 My name is Leonid, and I'm a 32-year-old front-end developer based in Samara.</p>
+          <p>🖥 I have a passion for front-end development and enjoy creating engaging and user-friendly web interfaces.
+          </p>
+          <p>📖 I am continuously learning and staying up-to-date with the latest web technologies and trends to enhance
+            my skills and provide cutting-edge solutions.</p>
+        </div>
+
+        <div class="skills">
+          <h3>Skills:</h3>
+          <ul>
+            <li>Semantic, adaptive cross-browser layout 🖥️,💻, 📱.</li>
+            <li>Page layout according to Figma and Photoshop designs 🎫</li>
+            <li>Working with version control system Git 🔄 </li>
+            <li>Writing functionality using JavaScript ⌨</li>
+          </ul>
+        </div>
+
+        <div class="stack">
+          <h2>Stack:</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>SASS</li>
+            <li>GULP</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Figma</li>
+            <li>Photoshop</li>
+          </ul>
+        </div>
+
+        <div class="code">
+          <h2>Code example:</h2>
+          <p>An instance of the code editing styles on the page:</p>
+          <pre>
+            const navIcon = document.querySelector('.nav-icon');
+            const nav = document.querySelector('.header__top-row');
+
+            navBtn.onclick = function () {
+            navIcon.classList.toggle('nav-icon--active');
+            nav.classList.toggle('header__top-row--mobile');
+            document.body.classList.toggle('no-scroll');
+            }
+          </pre>
+        </div>
+
+        <div class="education">
+          <h2>Education:</h2>
+          <pre>
+            - Primary school:
+            - Dimitrovgrad City Gymnasium, 2001.
+            - Middle school:
+            - Dimitrovgrad Multidisciplinary University Lyceum, 2006. 
+            - High school: 
+            - Dimitrovgrad Multidisciplinary University Lyceum, 2008.
+            - University:
+            - Samara State Medical University: 2013, Pharmaceutical faculty.
+            - Internship:
+            - Samara State Medical University: 2014, Department of Management and Economics of Pharmacy.
+            - Courses:
+            - Tomsk State University 2023, Web Programmer.
+          </pre>
+        </div>
+
+        <div class="languages">
+          <h2>Languages:</h2>
+          <p>Russian - Native speaker.</p>
+          <p>English - А2 Elementary.</p>
+        </div>
+
+
+      </div>
+    </main>
+    <footer class="footer"></footer>
   </div>
   <script src="./index.js"></script>
 </body>
+
 </html>
