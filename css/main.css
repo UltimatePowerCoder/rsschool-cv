@@ -28,6 +28,23 @@ a {
     margin: 0 auto;
 }
 
+.main_grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.left-column {
+    grid-area: 1 / 1 / 6 / 2;
+}
+
+.right-column {
+    grid-area: 1 / 2 / 6 / 6;
+    margin-top: 30px;
+}
+
 /* Header section start */
 
 .header__logo {
@@ -57,6 +74,8 @@ a {
 
 .contact-info {
     display: flex;
+    flex-direction: column;
+    margin-right: 100px;
 }
 
 .contacts {
@@ -96,15 +115,12 @@ a {
     display: flex;
 }
 
-.cv-skills {}
-
-.conatcts-data {}
-
 .conatcts-data-content {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
+
 /* Contacts section end */
 /* About me section start */
 
@@ -116,42 +132,42 @@ a {
 /* About me section end */
 /* CV-skills section start */
 
-.cv-skills{
+.cv-skills {
     margin-bottom: 25px;
 }
 
 /* CV-skills section end */
 /* Stack section start */
 
-.stack{
+.stack {
     margin-bottom: 25px;
 }
 
 /* Stack section end */
 /* Code section start */
 
-.code{
+.code {
     margin-bottom: 25px;
 }
 
 /* Code section end */
 /* Portfolio section start */
 
-.portfolio{
+.portfolio {
     margin-bottom: 25px;
 }
 
 /* Portfolio section end */
 /* Education section start */
 
-.education{
+.education {
     margin-bottom: 25px;
 }
 
 /* Education section end */
 /* Languages section start */
 
-.languages{
+.languages {
     margin-bottom: 25px;
 }
 
