@@ -53,3 +53,54 @@ a {
 }
 
 /* Header section end */
+
+.contact-info {
+    display: flex;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contact-info_avatar {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 30px 0px;
+}
+
+.contact-info_avatar img {
+    padding-top: 25px;
+    height: 100%;
+    width: auto;
+}
+
+.contact-links {
+    display: flex;
+    font-display: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 10px 0px 10px 0px;
+    gap: 15px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.cv-skills {}
+
+.conatcts-data {}
+
+.conatcts-data-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
