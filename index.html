@@ -23,7 +23,7 @@
           <div class="header__navigation">
             <nav class="menu">
               <ul>
-                <li><a href="#contacts">Contacts</a></li>
+                <!-- <li><a href="#contacts">Contacts</a></li> -->
                 <li><a href="#about">About me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#stack">Stack</a></li>
@@ -90,16 +90,15 @@
         <div class="code" id="code">
           <h2>Code example:</h2>
           <p>An instance of the code editing styles on the page:</p>
-          <pre>
-            const navIcon = document.querySelector('.nav-icon');
-            const nav = document.querySelector('.header__top-row');
-
-            navBtn.onclick = function () {
-            navIcon.classList.toggle('nav-icon--active');
-            nav.classList.toggle('header__top-row--mobile');
-            document.body.classList.toggle('no-scroll');
-            }
-          </pre>
+          <code>
+              <p>const navIcon = document.querySelector('.nav-icon');</p>
+              <p>const nav = document.querySelector('.header__top-row');</p>
+              <p>navBtn.onclick = function () {</p>
+              <p>navIcon.classList.toggle('nav-icon--active');</p>
+              <p>nav.classList.toggle('header__top-row--mobile');</p>
+              <p>document.body.classList.toggle('no-scroll');</p>
+              <p>}</p>
+          </code>
         </div>
 
         <div class="portfolio" id="portfolio">
@@ -112,20 +111,33 @@
 
         <div class="education" id="education">
           <h2>Education:</h2>
-          <pre>
-            - Primary school:
-            - Dimitrovgrad City Gymnasium, 2001.
-            - Middle school:
-            - Dimitrovgrad Multidisciplinary University Lyceum, 2006. 
-            - High school: 
-            - Dimitrovgrad Multidisciplinary University Lyceum, 2008.
-            - University:
-            - Samara State Medical University: 2013, Pharmaceutical faculty.
-            - Internship:
-            - Samara State Medical University: 2014, Department of Management and Economics of Pharmacy.
-            - Courses:
-            - Tomsk State University 2023, Web Programmer.
-          </pre>
+          <br>
+          <ul>
+            <ul>Primary school:
+              <li>- Dimitrovgrad City Gymnasium, 2001.</li>
+            </ul>
+            <br>
+            <ul>Middle school:
+              <li>- Dimitrovgrad Multidisciplinary University Lyceum, 2006.</li>
+            </ul>
+            <br>
+            <ul>High school:
+              <li>- Dimitrovgrad Multidisciplinary University Lyceum, 2008.</li>
+            </ul>
+            <br>
+            <ul>University:
+              <li>- Samara State Medical University: 2013, Pharmaceutical faculty.</li>
+            </ul>
+            <br>
+            <ul>Internship:
+              <li>- Samara State Medical University: 2014, Department of Management and Economics of Pharmacy.</li>
+            </ul>
+            <br>
+            <ul>Courses:
+              <li>- Tomsk State University 2023, Web Programmer.</li>
+            </ul>
+            <br>
+          </ul>
         </div>
 
         <div class="languages" id="languages">

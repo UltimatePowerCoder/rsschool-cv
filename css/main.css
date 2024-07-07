@@ -33,11 +33,11 @@ a {
 .header__logo {
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .header__content {
     display: flex;
-    font-display: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px 0px 10px;
@@ -48,6 +48,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
