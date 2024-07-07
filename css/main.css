@@ -150,6 +150,12 @@ a:hover {
     margin-bottom: 25px;
 }
 
+.stack_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 /* Stack section end */
 /* Code section start */
 
