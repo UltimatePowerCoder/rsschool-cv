@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/main.css">
-  <link rel="icon" href="./assets/svg/gulp.svg" />
+  <link rel="icon" href="./assets/svg/gulp.svg">
   <title>CV - Leonid Korshunov</title>
 </head>
 
@@ -31,9 +31,9 @@
                 <li><a href="#education">Education</a></li>
                 <li><a href="#languages">Languages</a></li>
               </ul>
+            </nav>
           </div>
         </div>
-        </nav>
 
       </div>
     </header>
@@ -43,12 +43,12 @@
         <div class="main_grid-container">
           <div class="left-column">
             <section class="contact-info">
-        
+
               <div class="contact-info_avatar">
                 <img src="./assets/img/avatar.png" alt="The developer avatar">
               </div>
-        
-              <div class="contacts" id="">
+
+              <div class="contacts">
                 <div class="contacts-data">
                   <div class="conatcts-data-content">
                     <h2>Contacts:</h2>
@@ -58,21 +58,22 @@
                     <p>+7(999)170-24-68</p>
                   </div>
                 </div>
-        
+
                 <div class="contact-links">
                   <h3>Links:</h3>
-                  <a href="https://t.me/leonidkorshunov"><img src="./assets/svg/telegram.svg" alt="" width="40px"></a>
-                  <a href="https://github.com/UltimatePowerCoder"><img src="./assets/svg/github.svg" alt=""
-                      width="40px"></a>
+                  <a href="https://t.me/leonidkorshunov" target="_blank"><img src="./assets/svg/telegram.svg" alt=""
+                      width="40"></a>
+                  <a href="https://github.com/UltimatePowerCoder" target="_blank"><img src="./assets/svg/github.svg"
+                      alt="" width="40"></a>
                 </div>
-        
+
               </div>
-              
+
             </section>
           </div>
           <div class="right-column">
-                    
-                
+
+
             <section class="about-me">
               <div class="about-me_content" id="about">
                 <h2>About Me:</h2>
@@ -88,9 +89,9 @@
                   my skills and provide cutting-edge solutions.</p>
               </div>
             </section>
-        
+
             <section class="cv-skills">
-        
+
               <div class="skills" id="skills">
                 <h3>Skills:</h3>
                 <ul>
@@ -101,7 +102,7 @@
                 </ul>
               </div>
             </section>
-        
+
             <section class="stack">
               <div class="stack_content" id="stack">
                 <h2>Stack:</h2>
@@ -118,66 +119,56 @@
                 </ul>
               </div>
             </section>
-        
+
             <section class="code">
               <div class="code_content" id="code">
                 <h2>Code example:</h2>
                 <p>An instance of the code editing styles on the page:</p>
-                <code>
-                    <p>const navIcon = document.querySelector('.nav-icon');</p>
-                    <p>const nav = document.querySelector('.header__top-row');</p>
-                    <p>navBtn.onclick = function () {</p>
-                    <p>navIcon.classList.toggle('nav-icon--active');</p>
-                    <p>nav.classList.toggle('header__top-row--mobile');</p>
-                    <p>document.body.classList.toggle('no-scroll');</p>
-                    <p>}</p>
-                </code>
+                <br>
+                <pre class="code-example">
+                    const navIcon = document.querySelector('.nav-icon');
+                    const nav = document.querySelector('.header__top-row');
+                    navBtn.onclick = function () {
+                    navIcon.classList.toggle('nav-icon--active');
+                    nav.classList.toggle('header__top-row--mobile');
+                    document.body.classList.toggle('no-scroll');
+                    }
+                  </pre>
               </div>
             </section>
-        
+
             <section class="portfolio">
               <div class="portfolio_content" id="portfolio">
                 <h2>Portfolio:</h2>
-                <p>CV#1 Markdown & Git</p>
-                <a href="https://ultimatepowercoder.github.io/rsschool-cv/cv">
+                <br>
+                <a href="https://ultimatepowercoder.github.io/rsschool-cv/cv" target="_blank">
+                  CV#1 Markdown & Git
+                </a>
+                <a href="https://ultimatepowercoder.github.io/rsschool-cv/cv" target="_blank">
                   <img src="./assets/img/image.png" alt="porfolio item picture" width="400">
                 </a>
               </div>
             </section>
-        
+
             <section class="education">
               <div class="education_content" id="education">
                 <h2>Education:</h2>
                 <br>
                 <ul>
-                  <ul>Primary school:
-                    <li>- Dimitrovgrad City Gymnasium, 2001.</li>
-                  </ul>
-                  <br>
-                  <ul>Middle school:
-                    <li>- Dimitrovgrad Multidisciplinary University Lyceum, 2006.</li>
-                  </ul>
-                  <br>
-                  <ul>High school:
-                    <li>- Dimitrovgrad Multidisciplinary University Lyceum, 2008.</li>
-                  </ul>
-                  <br>
-                  <ul>University:
-                    <li>- Samara State Medical University: 2013, Pharmaceutical faculty.</li>
-                  </ul>
-                  <br>
-                  <ul>Internship:
-                    <li>- Samara State Medical University: 2014, Department of Management and Economics of Pharmacy.</li>
-                  </ul>
-                  <br>
-                  <ul>Courses:
-                    <li>- Tomsk State University 2023, Web Programmer.</li>
-                  </ul>
-                  <br>
+                  <li><span class="bold">Primary school:</span> Dimitrovgrad City Gymnasium, 2001.</li>
+                  <li><span class="bold">Middle school:</span> Dimitrovgrad Multidisciplinary University Lyceum, 2006.
+                  </li>
+                  <li><span class="bold">High school:</span> Dimitrovgrad Multidisciplinary University Lyceum, 2008.
+                  </li>
+                  <li><span class="bold">University:</span> Samara State Medical University: 2013, Pharmaceutical
+                    faculty.</li>
+                  <li><span class="bold">Internship:</span> Samara State Medical University: 2014, Department of
+                    Management and Economics of Pharmacy.</li>
+                  <li><span class="bold">Courses:</span> Tomsk State University 2023, Web Programmer.</li>
                 </ul>
               </div>
             </section>
-        
+
             <section class="languages">
               <div class="languages-content" id="languages">
                 <h2>Languages:</h2>
@@ -193,14 +184,14 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-content">
-          <a href="https://github.com/UltimatePowerCoder">
-            <img src="./assets/svg/github.svg" alt="github logo" width="50px">
+          <a href="https://github.com/UltimatePowerCoder" target="_blank">
+            <img src="./assets/svg/github.svg" alt="github logo" width="50">
           </a>
-          <a href="https://rs.school/courses/javascript-ru">
-            <img src="./assets/svg/rsschool.svg" alt="RS School logo" width="50px">
+          <p>2024</p>
+          <a href="https://rs.school/courses/javascript-ru" target="_blank">
+            <img src="./assets/svg/rsschool.svg" alt="RS School logo" width="50">
           </a>
         </div>
-        <p>2024</p>
       </div>
     </footer>
   </div>
