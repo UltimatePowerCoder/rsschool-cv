@@ -16,6 +16,10 @@ html {
     box-sizing: inherit;
 }
 
+h2{
+    font-size: larger;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -143,6 +147,13 @@ a:hover {
     margin-bottom: 25px;
 }
 
+.skills ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
 /* CV-skills section end */
 /* Stack section start */
 
@@ -153,7 +164,9 @@ a:hover {
 .stack_content {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Stack section end */
@@ -186,6 +199,12 @@ a:hover {
     margin-bottom: 25px;
 }
 
+.education_content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+ 
 li span {
     font-weight: bolder;
 }
@@ -207,6 +226,10 @@ li span {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+p span {
+    font-weight: bolder;
 }
 
 /* Footer end */
