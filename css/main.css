@@ -53,6 +53,7 @@ a {
 }
 
 /* Header section end */
+/* Contacts section start */
 
 .contact-info {
     display: flex;
@@ -104,3 +105,62 @@ a {
     flex-direction: column;
     row-gap: 10px;
 }
+/* Contacts section end */
+/* About me section start */
+
+
+.about-me {
+    margin-bottom: 25px;
+}
+
+/* About me section end */
+/* CV-skills section start */
+
+.cv-skills{
+    margin-bottom: 25px;
+}
+
+/* CV-skills section end */
+/* Stack section start */
+
+.stack{
+    margin-bottom: 25px;
+}
+
+/* Stack section end */
+/* Code section start */
+
+.code{
+    margin-bottom: 25px;
+}
+
+/* Code section end */
+/* Portfolio section start */
+
+.portfolio{
+    margin-bottom: 25px;
+}
+
+/* Portfolio section end */
+/* Education section start */
+
+.education{
+    margin-bottom: 25px;
+}
+
+/* Education section end */
+/* Languages section start */
+
+.languages{
+    margin-bottom: 25px;
+}
+
+/* Languages section end */
+
+/* Footer start */
+
+.footer-content {
+    margin-bottom: 10px;
+}
+
+/* Footer end */
