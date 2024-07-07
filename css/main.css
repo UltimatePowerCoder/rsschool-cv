@@ -1,5 +1,3 @@
-
-
 :root {
     --black: #000000;
     --white: #ffffff;
@@ -29,3 +27,28 @@ a {
     padding: 0px 10px;
     margin: 0 auto;
 }
+
+/* Header section start */
+
+.header__logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__content {
+    display: flex;
+    font-display: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 0px 10px;
+    margin-bottom: 20px;
+}
+
+.menu>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* Header section end */
