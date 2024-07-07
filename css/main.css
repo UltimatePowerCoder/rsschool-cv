@@ -1,0 +1,235 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+}
+
+html {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+h2{
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    color: #0070b1;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1180px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+
+.main_grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.left-column {
+    grid-area: 1 / 1 / 6 / 2;
+}
+
+.right-column {
+    grid-area: 1 / 2 / 6 / 6;
+    margin-top: 30px;
+}
+
+/* Header section start */
+
+.header__logo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 0px 10px;
+    margin-bottom: 20px;
+}
+
+.menu>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Header section end */
+/* Contacts section start */
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contact-info_avatar {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 30px 0px;
+}
+
+.contact-info_avatar img {
+    padding-top: 25px;
+    height: 100%;
+    width: auto;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.conatcts-data-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+/* Contacts section end */
+/* About me section start */
+
+
+.about-me {
+    margin-bottom: 25px;
+}
+
+/* About me section end */
+/* CV-skills section start */
+
+.cv-skills {
+    margin-bottom: 25px;
+}
+
+.skills ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* CV-skills section end */
+/* Stack section start */
+
+.stack {
+    margin-bottom: 25px;
+}
+
+.stack_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Stack section end */
+/* Code section start */
+
+.code {
+    margin-bottom: 25px;
+}
+
+.code-example {
+    text-align: left;
+}
+
+/* Code section end */
+/* Portfolio section start */
+
+.portfolio {
+    margin-bottom: 25px;
+}
+
+.portfolio_content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Portfolio section end */
+/* Education section start */
+
+.education {
+    margin-bottom: 25px;
+}
+
+.education_content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+ 
+li span {
+    font-weight: bolder;
+}
+
+/* Education section end */
+/* Languages section start */
+
+.languages {
+    margin-bottom: 40px;
+}
+
+/* Languages section end */
+
+/* Footer start */
+
+.footer-content {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p span {
+    font-weight: bolder;
+}
+
+/* Footer end */
