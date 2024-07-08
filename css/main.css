@@ -126,10 +126,10 @@ a:hover {
     display: flex;
 }
 
-.conatcts-data-content {
+.conatcts-data-content ul {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    gap: 10px;
 }
 
 /* Contacts section end */
