@@ -83,3 +83,20 @@ ul {
     padding: 0px 20px;
     margin: 0 auto;
 }
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__navigation{
+    display: flex;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 35px;
+}
